@@ -15,7 +15,7 @@ chrome.alarms.onAlarm.addListener((alarm) => {
           });
         }
         chrome.storage.local.set({
-          timer,
+          timer, // timer : "timer"
         });
       }
     });
